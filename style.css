@@ -16,7 +16,7 @@ body{
 h1{
     font-size: 50px;
     font-family:'Poppins', 'Arial Narrow Bold';
-    margin-left: 5%;
+    margin-left: ;
     
 }
 h3{
@@ -60,7 +60,7 @@ h3{
 }  
 
 #learn{
-    background-color: aquamarine;
+    background-color: rgb(139, 241, 255);
     padding: 2%;
 }
 
@@ -75,4 +75,15 @@ h3{
 #repeat{
     background-color: aqua;
     padding: 2%;
+}
+.second-part{
+    display: flex;
+   width: 60%;
+   padding-left: 5%;
+}
+.second-part img{
+    margin-left: 10%;
+    margin-top: 3% ;
+    width: 300%;
+    margin-right: 0%;
 }
