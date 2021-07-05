@@ -1,6 +1,78 @@
-section{
-    background-image: url(images:health 1.png)
+body{
+    margin: 0;
+
 }
-p{
-    color: aqua;
+
+.top{
+    background-image: url("Untitled.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: 90%;
+    
+    
+}
+
+
+h1{
+    font-size: 50px;
+    font-family:'Poppins', 'Arial Narrow Bold';
+    margin-left: 5%;
+    
+}
+h3{
+    font-family:cursive;
+    
+}
+    
+
+.white{
+    color: snow;
+}
+.link{
+    text-decoration: none;
+    background-image: linear-gradient(aqua, turquoise);
+    padding: 2%;
+    border-radius: 5%;
+    margin-left: 10%;
+
+}
+.header{
+    padding-left: 10%;
+    display:flex;
+    width: 100%;
+}
+.header img{
+    width: 50%;
+    margin-top: 10%;
+    border-radius: 5%;
+    margin-left: 20% ;
+    box-shadow: 40px 20px 60px rgb(58, 240, 247);
+}
+.top-boxes{
+    display: flex ;
+}
+.top-box-item{
+    padding: 1%;
+    margin: 2%;
+    width: 40%;
+    margin-top: 5%;
+    margin-bottom: 0%;
+}  
+
+#learn{
+    background-color: aquamarine;
+    padding: 2%;
+}
+
+#grow{
+    background-color: violet;
+    padding: 2%;
+}
+#apply{
+    background-color: greenyellow;
+    padding: 2%;
+}
+#repeat{
+    background-color: aqua;
+    padding: 2%;
 }
